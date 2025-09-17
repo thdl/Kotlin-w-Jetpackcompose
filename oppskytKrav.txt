@@ -1,0 +1,35 @@
+Hei team 48!
+Kult å høre at dere har valgt caset vårt:)
+
+Jeg kan gi de maxverdiene vi har satt og en liten forklaring på hvordan det er mulig å finne dem:
+
+Max vind på bakken: 8.6 m/s
+Spesifikt i kastene, kan finnes i location forecast API'et.
+
+Vind i lufta: 17.2 m/s
+Ingen luftlag opp til makshøyde for raketten kan ha vind høyere enn 17.2 m/s. Denne dataen finner dere i isobaric gribb
+
+Shear vind: 24.5 m/s
+Max shear wind mellom to lag kan max være 24.5 m/s. Shear wind er forskjellen i vind mellom to lag, 
+og kan regnes ut ved å plusse sammen vind-vektorene og finne lengden av resultatet. Vi må bruke vektorer her fordi retningen på vinden har mye å si. 
+Denne dataen kan dere regne dere frem til med isobaric gibb.
+
+Sikt: 15% cloud coverage
+15% cloud coverage på høy og medium høyde, ikke mer enn 5% på lav høyde. Denne dataen finner dere i location forecast.
+
+Tåke: 0%
+Kan ikke skyte opp hvis det er tåke. Tåke % finner man i location forecast.
+
+Nedbør: 0
+Ingen nedbør, men det er positivt hvis det har regnet (som dere sa;) Dette finner dere i location forecast.
+
+Luftfuktighet: 75%
+75% ganske tørt, vi ønsker så lite fukt som mulig. Dette finner dere i location forecast
+
+Dew point: max 15 grader
+Dew point er temperaturen overflater må ha for at kondens skal dannes, dette er spesielt viktig siden vi må holde ventilene varmere enn denne temperaturen. 
+Dette kan dere finne i location forecast.
+
+Med tanke på parameterne til raketten kan dere gjerne ta utgangspunkt i Kon-Tiki, men det har mest å si hvis dere sikter på utfordringen. 
+For været sin del har det ikke så mye å si, annet enn at noen som skyter opp en rakett av typen solid, ikke vil bry seg like mye om fukt på oppskytings-dagen. 
+En ide er kanskje å la de som bruker appen sette inn maksverdier, men legge til noen forslag/forklaringer på verdier?
